@@ -64,7 +64,7 @@ public class UserTest {
 
     @And("Enter Username")
     public void enterUsername() {
-        new AddUserPage().enterTheUserName("ravinapansuriya");
+        new AddUserPage().enterTheUserName("Radhapatel");
     }
 
     @And("Select status Disable")
@@ -74,12 +74,12 @@ public class UserTest {
 
     @And("Enter password")
     public void enterPassword() {
-        new AddUserPage().enterPassword("Ravina@123");
+        new AddUserPage().enterPassword("Radha@5050");
     }
 
     @And("Enter Confirm Password")
     public void enterConfirmPassword() {
-        new AddUserPage().confirmPassword("Ravina@123");
+        new AddUserPage().confirmPassword("Radha@5050");
     }
 
     @And("Click On Save Button")
